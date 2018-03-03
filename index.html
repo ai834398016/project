@@ -1,1 +1,47 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form表单</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="username">姓名</label>
+            <input type="text" name="username" placeholder="用户名">
+        </div>
+        <div>
+            <label for="password">密码</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <lable>性别</lable>
+            <input type="radio" name="sex" value="男" checked>
+            <input type="radio" name="sex" value="女">
+        </div>
+        <div>
+            <lable>取向</lable>
+            <input type="radio" name="preference" value="男">
+            <input type="radio" name="preference" value="女" checked>
+        </div>
+        <div>
+            <lable>爱好</lable>
+            <input type="checkbox" name="hobby" value="dota">
+            <input type="checkbox" name="hobby" value="旅游" checked>
+            <input type="checkbox" name="hobby" value="宠物" checked>
+        </div>
+        <div>
+            <label for="comment">评论</label>
+            <textarea name="comment">ddd</textarea>
+        </div>
+        <div>
+            <lable>我的car</lable>
+            <select name="car">
+                <option value="1">萨博</option>
+                <option value="2">科斯拉</option>
+            </select>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
